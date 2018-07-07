@@ -9,7 +9,7 @@ const app = express();
 // allow cross-origin requests
 app.use(cors());
 
-mongoose.connect('mongodb://localhost/football-database-graphql');
+mongoose.connect('mongodb://localhost:27017/football-database-graphql', { useNewUrlParser: true });
 mongoose.connection.once('open', () => {
   console.log('connected to database');
 })
