@@ -3,6 +3,7 @@ const graphql = require('graphql');
 const Country = require('../models/country');
 const League = require('../models/league');
 const Team = require('../models/team');
+const Stadium = require('../models/stadium');
 
 const {
   GraphQLObjectType,
@@ -60,7 +61,23 @@ const TeamType = new GraphQLObjectType({
       resolve(parent, args) {
         return League.findById(parent.leagueId);
       }
+    },
+    stadium: {
+      type: StadiumType,
+      resolve(parent, args) {
+        return Stadium.findById(parent.stadiumId);
+      }
     }
+  })
+});
+
+const StadiumType = new GraphQLObjectType({
+  name: 'Stadium',
+  fields: () => ({
+    id: { type: GraphQLID },
+    name: { type: GraphQLString },
+    seatedCapacity: { type: GraphQLInt },
+    totalCapacity: { type: GraphQLInt }
   })
 });
 
