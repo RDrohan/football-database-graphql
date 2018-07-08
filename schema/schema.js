@@ -2,6 +2,7 @@ const graphql = require('graphql');
 
 const Country = require('../models/country');
 const League = require('../models/league');
+const Team = require('../models/team');
 
 const {
   GraphQLObjectType,
@@ -38,6 +39,27 @@ const LeagueType = new GraphQLObjectType({
       resolve(parent, args) {
         return Country.findById(parent.countryId);
       }
+    },
+    teams: {
+      type: new GraphQLList(TeamType),
+      resolve(parent, args) {
+        return Team.find({ leagueId: parent.id });
+      }
+    }
+  })
+});
+
+const TeamType = new GraphQLObjectType({
+  name: 'Team',
+  fields: () => ({
+    id: { type: GraphQLID },
+    name: { type: GraphQLString },
+    yearFounded: { type: GraphQLInt },
+    league: {
+      type: LeagueType,
+      resolve(parent, args) {
+        return League.findById(parent.leagueId);
+      }
     }
   })
 });
@@ -56,6 +78,13 @@ const RootQuery = new GraphQLObjectType({
       args: { id: { type: GraphQLID } },
       resolve(parent, args) { 
         return Country.findById(args.id);
+      }
+    },
+    league: {
+      type: LeagueType,
+      args: { id: { type: GraphQLID } },
+      resolve(parent, args) { 
+        return League.findById(args.id);
       }
     }
   }
