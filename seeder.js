@@ -16,6 +16,7 @@ const mongoose = require('mongoose');
 
 const data = [
 	insertCollection(require('./data/city')),
+	insertCollection(require('./data/competition')),
 	insertCollection(require('./data/country')),
 	insertCollection(require('./data/league')),
 	insertCollection(require('./data/stadium')),
