@@ -1,4 +1,4 @@
-const League = require('../../models/league');
+const League = require('../models/league');
 const ObjectId = require('mongoose').Types.ObjectId;
 
 module.exports = {

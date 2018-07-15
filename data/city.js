@@ -1,4 +1,4 @@
-const City = require('../../models/city');
+const City = require('../models/city');
 const ObjectId = require('mongoose').Types.ObjectId;
 
 module.exports = {
