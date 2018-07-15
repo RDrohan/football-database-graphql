@@ -20,6 +20,7 @@ const data = [
 	insertCollection(require('./data/league')),
 	insertCollection(require('./data/stadium')),
 	insertCollection(require('./data/team')),
+	insertCollection(require('./data/winner')),
 ];
 
 mongoose.connect('mongodb://localhost:27017/football-database-test', { useNewUrlParser: true });
