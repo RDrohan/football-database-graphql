@@ -15,14 +15,17 @@ const insertCollection = async (collection) => {
 const mongoose = require('mongoose');
 
 const data = [
+	insertCollection(require('./data/city')),
 	insertCollection(require('./data/country'))
 ];
 
 mongoose.connect('mongodb://localhost:27017/football-database-test', { useNewUrlParser: true });
 
-Promise.all(data).then(() => {
-	console.log('Database seeded');
-	mongoose.disconnect();
-});
-
-//mongoose.disconnect();
+Promise.all(data)
+	.then(() => {
+		console.log('Database seeded');
+		mongoose.disconnect();
+	})
+	.catch((err) => {
+		console.log(err);
+	});
