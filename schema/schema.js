@@ -5,6 +5,7 @@ const League = require('../models/league');
 const Team = require('../models/team');
 const Stadium = require('../models/stadium');
 const City = require('../models/city');
+const Competition = require('../models/competition');
 
 const {
   GraphQLObjectType,
@@ -96,6 +97,20 @@ const CityType = new GraphQLObjectType({
   })
 });
 
+const CompetitionType = new GraphQLObjectType({
+  name: 'Competition',
+  fields: () => ({
+    id: { type: GraphQLID },
+    name: { type: GraphQLString },
+    country: {
+      type: CountryType,
+      resolve(parent, args) {
+        return Country.findById(parent.countryId);
+      }
+    }
+  })
+});
+
 const RootQuery = new GraphQLObjectType({
   name: 'RootQueryType',
   fields: {
@@ -117,6 +132,12 @@ const RootQuery = new GraphQLObjectType({
       args: { id: { type: GraphQLID } },
       resolve(parent, args) { 
         return League.findById(args.id);
+      }
+    },
+    competitions: {
+      type: new GraphQLList(CompetitionType),
+      resolve(parent, args) { 
+        return Competition.find({});
       }
     }
   }
