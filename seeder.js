@@ -24,7 +24,7 @@ const data = [
 	insertCollection(require('./data/winner')),
 ];
 
-mongoose.connect('mongodb://localhost:27017/football-database-test', { useNewUrlParser: true });
+mongoose.connect('mongodb://localhost:27017/football-database-graphql', { useNewUrlParser: true });
 
 Promise.all(data)
 	.then(() => {
