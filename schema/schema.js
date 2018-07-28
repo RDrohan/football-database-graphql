@@ -166,6 +166,13 @@ const RootQuery = new GraphQLObjectType({
       resolve(parent, args) { 
         return Winner.find({});
       }
+    },
+    honours: {
+      type: new GraphQLList(WinnerType),
+      args: { teamId: { type: GraphQLID } },
+      resolve(parent, args) { 
+        return Winner.find({ teamId: args.teamId });
+      }
     }
   }
 });
