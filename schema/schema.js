@@ -155,6 +155,13 @@ const RootQuery = new GraphQLObjectType({
         return League.findById(args.id);
       }
     },
+    countryLeagues: {
+      type: new GraphQLList(LeagueType),
+      args: { countryId: { type: GraphQLID } },
+      resolve(parent, args) { 
+        return League.find({ countryId: args.countryId });
+      }
+    },
     competitions: {
       type: new GraphQLList(CompetitionType),
       resolve(parent, args) { 
