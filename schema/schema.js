@@ -187,6 +187,13 @@ const RootQuery = new GraphQLObjectType({
       resolve(parent, args) { 
         return Winner.find({ teamId: args.teamId });
       }
+    },
+    team: {
+      type: TeamType,
+      args: { id: { type: GraphQLID } },
+      resolve(parent, args) { 
+        return Team.findById(args.id)
+      }
     }
   }
 });
