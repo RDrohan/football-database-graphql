@@ -70,6 +70,12 @@ const TeamType = new GraphQLObjectType({
       resolve(parent, args) {
         return Stadium.findById(parent.stadiumId);
       }
+    },
+    winner: {
+      type: new GraphQLList(WinnerType),
+      resolve(parent, args) {
+        return Winner.find({ teamId: parent.id });
+      }
     }
   })
 });

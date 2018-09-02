@@ -6,7 +6,8 @@ const teamSchema = new Schema({
   name: String,
   yearFounded: Number,
   stadiumId: String,
-  leagueId: String
+  leagueId: String,
+  winnerId: String
 });
 
 module.exports = mongoose.model('Team', teamSchema, 'team');
