@@ -4,145 +4,49 @@ const ObjectId = require('mongoose').Types.ObjectId;
 module.exports = {
 	name: Stadium,
 	data: [
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e7119'),
-			name: 'Athlone Town Stadium',
-			seatedCapacity: 2024,
-			totalCapacity: 5000,
-			cityId: '5b3fa59a13591ee38844587f'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e711a'),
-			name: 'Brandywell Stadium',
-			seatedCapacity: 2900,
-			totalCapacity: 7700,
-			cityId: '5b3fa59a13591ee388445884'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e711b'),
-			name: 'Carlisle Grounds',
-			seatedCapacity: 3185,
-			totalCapacity: 7000,
-			cityId: '5b3fa59a13591ee388445881'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e711c'),
-			name: 'City Calling Stadium',
-			seatedCapacity: 8000,
-			totalCapacity: 8000,
-			cityId: '5b3fa59a13591ee38844588a'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e711d'),
-			name: 'Dalymount Park',
-			seatedCapacity: 7955,
-			totalCapacity: 7955,
-			cityId: '5b3fa59a13591ee388445886'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e711e'),
-			name: 'Eamonn Deacy Park',
-			seatedCapacity: 3300,
-			totalCapacity: 5000,
-			cityId: '5b3fa59a13591ee388445888'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e711f'),
-			name: 'Ferrycarrig Park',
-			seatedCapacity: 609,
-			totalCapacity: 2500,
-			cityId: '5b3fa59a13591ee38844588d'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e7120'),
-			name: 'Finn Park',
-			seatedCapacity: 400,
-			totalCapacity: 6000,
-			cityId: '5b3fa59a13591ee388445880'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e7121'),
-			name: 'Markets Field',
-			seatedCapacity: 1710,
-			totalCapacity: 5000,
-			cityId: '5b3fa59a13591ee388445889'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e7122'),
-			name: 'Oriel Park',
-			seatedCapacity: 3000,
-			totalCapacity: 4500,
-			cityId: '5b3fa59a13591ee388445887'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e7123'),
-			name: 'Richmond Park',
-			seatedCapacity: 2800,
-			totalCapacity: 5340,
-			cityId: '5b3fa59a13591ee388445886'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e7124'),
-			name: 'St. Colman\'s Park',
-			seatedCapacity: 1350,
-			totalCapacity: 5980,
-			cityId: '5b3fa59a13591ee388445882'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e7125'),
-			name: 'Stradbrook Road',
-			seatedCapacity: 500,
-			totalCapacity: 1620,
-			cityId: '5b3fa59a13591ee388445886'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e7126'),
-			name: 'Tallaght Stadium',
-			seatedCapacity: 6000,
-			totalCapacity: 6000,
-			cityId: '5b3fa59a13591ee388445886'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e7127'),
-			name: 'The RSC',
-			seatedCapacity: 3100,
-			totalCapacity: 5500,
-			cityId: '5b3fa59a13591ee38844588c'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e7128'),
-			name: 'The Showgrounds',
-			seatedCapacity: 4000,
-			totalCapacity: 5500,
-			cityId: '5b3fa59a13591ee38844588b'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e7129'),
-			name: 'Tolka Park',
-			seatedCapacity: 9681,
-			totalCapacity: 9681,
-			cityId: '5b3fa59a13591ee388445886'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e712a'),
-			name: 'Turners Cross',
-			seatedCapacity: 7485,
-			totalCapacity: 7485,
-			cityId: '5b3fa59a13591ee388445883'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e712b'),
-			name: 'UCD Bowl',
-			seatedCapacity: 1500,
-			totalCapacity: 3000,
-			cityId: '5b3fa59a13591ee388445886'
-		},
-		{
-			_id: ObjectId('5b3fe7bd6e669ce4e04e712c'),
-			name: 'United Park',
-			seatedCapacity: 1500,
-			totalCapacity: 2000,
-			cityId: '5b3fa59a13591ee388445885'
-		}
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e7119'), name: 'Athlone Town Stadium', seatedCapacity: 2024, totalCapacity: 5000, cityId: '5b3fa59a13591ee38844587f' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e711a'), name: 'Brandywell Stadium', seatedCapacity: 2900, totalCapacity: 7700, cityId: '5b3fa59a13591ee388445884' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e711b'), name: 'Carlisle Grounds', seatedCapacity: 3185, totalCapacity: 7000, cityId: '5b3fa59a13591ee388445881' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e711c'), name: 'City Calling Stadium', seatedCapacity: 8000, totalCapacity: 8000, cityId: '5b3fa59a13591ee38844588a' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e711d'), name: 'Dalymount Park', seatedCapacity: 7955, totalCapacity: 7955, cityId: '5b3fa59a13591ee388445886' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e711e'), name: 'Eamonn Deacy Park', seatedCapacity: 3300, totalCapacity: 5000, cityId: '5b3fa59a13591ee388445888' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e711f'), name: 'Ferrycarrig Park', seatedCapacity: 609, totalCapacity: 2500, cityId: '5b3fa59a13591ee38844588d' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e7120'), name: 'Finn Park', seatedCapacity: 400, totalCapacity: 6000, cityId: '5b3fa59a13591ee388445880' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e7121'), name: 'Markets Field', seatedCapacity: 1710, totalCapacity: 5000, cityId: '5b3fa59a13591ee388445889' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e7122'), name: 'Oriel Park', seatedCapacity: 3000, totalCapacity: 4500, cityId: '5b3fa59a13591ee388445887' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e7123'), name: 'Richmond Park', seatedCapacity: 2800, totalCapacity: 5340, cityId: '5b3fa59a13591ee388445886' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e7124'), name: 'St. Colman\'s Park', seatedCapacity: 1350, totalCapacity: 5980, cityId: '5b3fa59a13591ee388445882' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e7125'), name: 'Stradbrook Road', seatedCapacity: 500, totalCapacity: 1620, cityId: '5b3fa59a13591ee388445886' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e7126'), name: 'Tallaght Stadium', seatedCapacity: 6000, totalCapacity: 6000, cityId: '5b3fa59a13591ee388445886' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e7127'), name: 'The RSC', seatedCapacity: 3100, totalCapacity: 5500, cityId: '5b3fa59a13591ee38844588c' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e7128'), name: 'The Showgrounds', seatedCapacity: 4000, totalCapacity: 5500, cityId: '5b3fa59a13591ee38844588b' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e7129'), name: 'Tolka Park', seatedCapacity: 9681, totalCapacity: 9681, cityId: '5b3fa59a13591ee388445886' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e712a'), name: 'Turners Cross', seatedCapacity: 7485, totalCapacity: 7485, cityId: '5b3fa59a13591ee388445883' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e712b'), name: 'UCD Bowl', seatedCapacity: 1500, totalCapacity: 3000, cityId: '5b3fa59a13591ee388445886' },
+		{ _id: ObjectId('5b3fe7bd6e669ce4e04e712c'), name: 'United Park', seatedCapacity: 1500, totalCapacity: 2000, cityId: '5b3fa59a13591ee388445885' },
+		{ _id: ObjectId('5b901af0e69a5cf1e7cd5369'), name: 'Seaview', seatedCapacity: 3383, totalCapacity: 3383, cityId: '5b901a83e69a5cf1e7cd5323' },
+		{ _id: ObjectId('5b901c5de69a5cf1e7cd541f'), name: 'Windsor Park', seatedCapacity: 18434, totalCapacity: 18434, cityId: '5b901a83e69a5cf1e7cd5323' },
+		{ _id: ObjectId('5b901d1ce69a5cf1e7cd5472'), name: 'The Oval', seatedCapacity: 6500, totalCapacity: 15000, cityId: '5b901a83e69a5cf1e7cd5323' },
+		{ _id: ObjectId('5b901ddce69a5cf1e7cd54c6'), name: 'Solitude', seatedCapacity: 3000, totalCapacity: 8000, cityId: '5b901a83e69a5cf1e7cd5323' },
+		{ _id: ObjectId('5b901f2be69a5cf1e7cd5548'), name: 'The Showgrounds', seatedCapacity: 2496, totalCapacity: 13132, cityId: '5b901ef2e69a5cf1e7cd5530' },
+		{ _id: ObjectId('5b90201ce69a5cf1e7cd55a5'), name: 'Clandeboye Park', seatedCapacity: 500, totalCapacity: 2000, cityId: '5b901fe6e69a5cf1e7cd5590' },
+		{ _id: ObjectId('5b9020e6e69a5cf1e7cd55f7'), name: 'Mourneview Park', seatedCapacity: 3200, totalCapacity: 4160, cityId: '5b9020bbe69a5cf1e7cd55e6' },
+		{ _id: ObjectId('5b902209e69a5cf1e7cd5666'), name: 'Ballymena Showgrounds', seatedCapacity: 3600, totalCapacity: 4100, cityId: '5b9021abe69a5cf1e7cd5645' },
+		{ _id: ObjectId('5b9022f8e69a5cf1e7cd56c5'), name: 'Stangmore Park', seatedCapacity: 300, totalCapacity: 5000, cityId: '5b902280e69a5cf1e7cd5699' },
+		{ _id: ObjectId('5b902523e69a5cf1e7cd578e'), name: 'The Showgrounds', seatedCapacity: 1080, totalCapacity: 7949, cityId: '5b9024f6e69a5cf1e7cd577d' },
+		{ _id: ObjectId('5b9025b2e69a5cf1e7cd57cc'), name: 'Milltown', seatedCapacity: 150, totalCapacity: 1450, cityId: '5b902585e69a5cf1e7cd57bb' },
+		{ _id: ObjectId('5b90262fe69a5cf1e7cd5804'), name: 'Riverside Stadium', seatedCapacity: 1540, totalCapacity: 3110, cityId: '5b3fa59a13591ee388445884' },
+		{ _id: ObjectId('5b902702e69a5cf1e7cd5856'), name: 'Shamrock Park', seatedCapacity: 2770, totalCapacity: 3660, cityId: '5b9026d4e69a5cf1e7cd5844' },
+		{ _id: ObjectId('5bcf9080945bbc9e34fa3fb0'), name: 'Ferney Park', seatedCapacity: 250, totalCapacity: 2000, cityId: '5bcf9044945bbc9e34fa3f7a' },
+		{ _id: ObjectId('5bcf916d945bbc9e34fa4036'), name: 'Dixon Park', seatedCapacity: 0, totalCapacity: 1800, cityId: '5bcf9131945bbc9e34fa4020' },
+		{ _id: ObjectId('5bcf9211945bbc9e34fa4080'), name: 'Loughshore Hotel Arena', seatedCapacity: 400, totalCapacity: 6000, cityId: '5bcf91ea945bbc9e34fa4071' },
+		{ _id: ObjectId('5be35e98d16f192eab8d2569'), name: 'Darragh Park', seatedCapacity: 0, totalCapacity: 1200, cityId: '5be35e68d16f192eab8d255a' },
+		{ _id: ObjectId('5be35f47d16f192eab8d2593'), name: 'Wilgar Park', seatedCapacity: 0, totalCapacity: 2500, cityId: '5b901a83e69a5cf1e7cd5323' },
+		{ _id: ObjectId('5be36026d16f192eab8d25c1'), name: 'Tillysburn Park', seatedCapacity: 500, totalCapacity: 3000, cityId: '5b901a83e69a5cf1e7cd5323' },
+		{ _id: ObjectId('5be3607fd16f192eab8d25d5'), name: 'Breda Park', seatedCapacity: 0, totalCapacity: 1000, cityId: '5b901a83e69a5cf1e7cd5323' },
+		{ _id: ObjectId('5be36130d16f192eab8d25f9'), name: 'Inver Park', seatedCapacity: 0, totalCapacity: 3000, cityId: '5be360fdd16f192eab8d25ef' },
+		{ _id: ObjectId('5be361d5d16f192eab8d261e'), name: 'The Showgrounds', seatedCapacity: 0, totalCapacity: 1500, cityId: '5be36190d16f192eab8d2611' },
+		{ _id: ObjectId('5be362c7d16f192eab8d264f'), name: 'Lakeview Park', seatedCapacity: 0, totalCapacity: 3000, cityId: '5be36273d16f192eab8d2640' },
+		{ _id: ObjectId('5be363b1d16f192eab8d267d'), name: 'Newforge Lane', seatedCapacity: 0, totalCapacity: 478, cityId: '5b901a83e69a5cf1e7cd5323' }
 	]
 }

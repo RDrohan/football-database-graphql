@@ -4,145 +4,49 @@ const ObjectId = require('mongoose').Types.ObjectId;
 module.exports = {
     name: Team,
     data: [
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e712d'),
-            name: 'Athlone Town',
-            yearFounded: 1887,
-            leagueId: '5b3faac513591ee3884458a5',
-            stadiumId: '5b3fe7bd6e669ce4e04e7119'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e712e'),
-            name: 'Bohemians',
-            yearFounded: 1890,
-            leagueId: '5b3faac513591ee3884458a4',
-            stadiumId: '5b3fe7bd6e669ce4e04e711d'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e712f'),
-            name: 'Bray Wanderers',
-            yearFounded: 1942,
-            leagueId: '5b3faac513591ee3884458a4',
-            stadiumId: '5b3fe7bd6e669ce4e04e711b'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e7130'),
-            name: 'Cabinteely',
-            yearFounded: 1967,
-            leagueId: '5b3faac513591ee3884458a5',
-            stadiumId: '5b3fe7bd6e669ce4e04e7125'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e7131'),
-            name: 'Cobh Ramblers',
-            yearFounded: 1922,
-            leagueId: '5b3faac513591ee3884458a5',
-            stadiumId: '5b3fe7bd6e669ce4e04e7124'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e7132'),
-            name: 'Cork City',
-            yearFounded: 1984,
-            leagueId: '5b3faac513591ee3884458a4',
-            stadiumId: '5b3fe7bd6e669ce4e04e712a'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e7133'),
-            name: 'Derry City',
-            yearFounded: 1928,
-            leagueId: '5b3faac513591ee3884458a4',
-            stadiumId: '5b3fe7bd6e669ce4e04e711a'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e7134'),
-            name: 'Drogheda United',
-            yearFounded: 1919,
-            leagueId: '5b3faac513591ee3884458a5',
-            stadiumId: '5b3fe7bd6e669ce4e04e712c'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e7135'),
-            name: 'Dundalk',
-            yearFounded: 1903,
-            leagueId: '5b3faac513591ee3884458a4',
-            stadiumId: '5b3fe7bd6e669ce4e04e7122'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e7136'),
-            name: 'Finn Harps',
-            yearFounded: 1954,
-            leagueId: '5b3faac513591ee3884458a5',
-            stadiumId: '5b3fe7bd6e669ce4e04e7120'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e7137'),
-            name: 'Galway United',
-            yearFounded: 1937,
-            leagueId: '5b3faac513591ee3884458a5',
-            stadiumId: '5b3fe7bd6e669ce4e04e711e'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e7138'),
-            name: 'Limerick',
-            yearFounded: 1937,
-            leagueId: '5b3faac513591ee3884458a4',
-            stadiumId: '5b3fe7bd6e669ce4e04e7121'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e7139'),
-            name: 'Longford Town',
-            yearFounded: 1924,
-            leagueId: '5b3faac513591ee3884458a5',
-            stadiumId: '5b3fe7bd6e669ce4e04e711c'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e713a'),
-            name: 'Shamrock Rovers',
-            yearFounded: 1899,
-            leagueId: '5b3faac513591ee3884458a4',
-            stadiumId: '5b3fe7bd6e669ce4e04e7126'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e713b'),
-            name: 'Shelbourne',
-            yearFounded: 1895,
-            leagueId: '5b3faac513591ee3884458a5',
-            stadiumId: '5b3fe7bd6e669ce4e04e7129'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e713c'),
-            name: 'Sligo Rovers',
-            yearFounded: 1928,
-            leagueId: '5b3faac513591ee3884458a4',
-            stadiumId: '5b3fe7bd6e669ce4e04e7128'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e713d'),
-            name: 'St Patrick\'s Athletic',
-            yearFounded: 1929,
-            leagueId: '5b3faac513591ee3884458a4',
-            stadiumId: '5b3fe7bd6e669ce4e04e7123'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e713e'),
-            name: 'UCD',
-            yearFounded: 1895,
-            leagueId: '5b3faac513591ee3884458a5',
-            stadiumId: '5b3fe7bd6e669ce4e04e712b'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e713f'),
-            name: 'Waterford',
-            yearFounded: 1930,
-            leagueId: '5b3faac513591ee3884458a4',
-            stadiumId: '5b3fe7bd6e669ce4e04e7127'
-        },
-        {
-            _id: ObjectId('5b3fea4b6e669ce4e04e7140'),
-            name: 'Wexford',
-            yearFounded: 2008,
-            leagueId: '5b3faac513591ee3884458a5',
-            stadiumId: '5b3fe7bd6e669ce4e04e711f'
-        }
+        { _id: ObjectId('5b3fea4b6e669ce4e04e712d'), name: 'Athlone Town', yearFounded: 1887, leagueId: '5b3faac513591ee3884458a5', stadiumId: '5b3fe7bd6e669ce4e04e7119' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e712e'), name: 'Bohemians', yearFounded: 1890, leagueId: '5b3faac513591ee3884458a4', stadiumId: '5b3fe7bd6e669ce4e04e711d' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e712f'), name: 'Bray Wanderers', yearFounded: 1942, leagueId: '5b3faac513591ee3884458a4', stadiumId: '5b3fe7bd6e669ce4e04e711b' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e7130'), name: 'Cabinteely', yearFounded: 1967, leagueId: '5b3faac513591ee3884458a5', stadiumId: '5b3fe7bd6e669ce4e04e7125' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e7131'), name: 'Cobh Ramblers', yearFounded: 1922, leagueId: '5b3faac513591ee3884458a5', stadiumId: '5b3fe7bd6e669ce4e04e7124' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e7132'), name: 'Cork City', yearFounded: 1984, leagueId: '5b3faac513591ee3884458a4', stadiumId: '5b3fe7bd6e669ce4e04e712a' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e7133'), name: 'Derry City', yearFounded: 1928, leagueId: '5b3faac513591ee3884458a4', stadiumId: '5b3fe7bd6e669ce4e04e711a' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e7134'), name: 'Drogheda United', yearFounded: 1919, leagueId: '5b3faac513591ee3884458a5', stadiumId: '5b3fe7bd6e669ce4e04e712c' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e7135'), name: 'Dundalk', yearFounded: 1903, leagueId: '5b3faac513591ee3884458a4', stadiumId: '5b3fe7bd6e669ce4e04e7122' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e7136'), name: 'Finn Harps', yearFounded: 1954, leagueId: '5b3faac513591ee3884458a5', stadiumId: '5b3fe7bd6e669ce4e04e7120' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e7137'), name: 'Galway United', yearFounded: 1937, leagueId: '5b3faac513591ee3884458a5', stadiumId: '5b3fe7bd6e669ce4e04e711e' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e7138'), name: 'Limerick', yearFounded: 1937, leagueId: '5b3faac513591ee3884458a4', stadiumId: '5b3fe7bd6e669ce4e04e7121' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e7139'), name: 'Longford Town', yearFounded: 1924, leagueId: '5b3faac513591ee3884458a5', stadiumId: '5b3fe7bd6e669ce4e04e711c' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e713a'), name: 'Shamrock Rovers', yearFounded: 1899, leagueId: '5b3faac513591ee3884458a4', stadiumId: '5b3fe7bd6e669ce4e04e7126' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e713b'), name: 'Shelbourne', yearFounded: 1895, leagueId: '5b3faac513591ee3884458a5', stadiumId: '5b3fe7bd6e669ce4e04e7129' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e713c'), name: 'Sligo Rovers', yearFounded: 1928, leagueId: '5b3faac513591ee3884458a4', stadiumId: '5b3fe7bd6e669ce4e04e7128' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e713d'), name: 'St Patrick\'s Athletic', yearFounded: 1929, leagueId: '5b3faac513591ee3884458a4', stadiumId: '5b3fe7bd6e669ce4e04e7123' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e713e'), name: 'UCD', yearFounded: 1895, leagueId: '5b3faac513591ee3884458a5', stadiumId: '5b3fe7bd6e669ce4e04e712b' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e713f'), name: 'Waterford', yearFounded: 1930, leagueId: '5b3faac513591ee3884458a4', stadiumId: '5b3fe7bd6e669ce4e04e7127' },
+        { _id: ObjectId('5b3fea4b6e669ce4e04e7140'), name: 'Wexford', yearFounded: 2008, leagueId: '5b3faac513591ee3884458a5', stadiumId: '5b3fe7bd6e669ce4e04e711f' },
+        { _id: ObjectId('5b901a3de69a5cf1e7cd52f6'), name: 'Crusaders', yearFounded: 1898, leagueId: '5b3faac513591ee3884458a6', stadiumId: '5b901af0e69a5cf1e7cd5369' },
+        { _id: ObjectId('5b901c9de69a5cf1e7cd543c'), name: 'Linfield', yearFounded: 1886, leagueId: '5b3faac513591ee3884458a6', stadiumId: '5b901c5de69a5cf1e7cd541f' },
+        { _id: ObjectId('5b901d54e69a5cf1e7cd548c'), name: 'Glentoran', yearFounded: 1882, leagueId: '5b3faac513591ee3884458a6', stadiumId: '5b901d1ce69a5cf1e7cd5472' },
+        { _id: ObjectId('5b901e07e69a5cf1e7cd54d7'), name: 'Cliftonville', yearFounded: 1879, leagueId: '5b3faac513591ee3884458a6', stadiumId: '5b901ddce69a5cf1e7cd54c6' },
+        { _id: ObjectId('5b901f70e69a5cf1e7cd5560'), name: 'Coleraine', yearFounded: 1927, leagueId: '5b3faac513591ee3884458a6', stadiumId: '5b901f2be69a5cf1e7cd5548' },
+        { _id: ObjectId('5b902089e69a5cf1e7cd55ce'), name: 'Ards', yearFounded: 1900, leagueId: '5b3faac513591ee3884458a6', stadiumId: '5b90201ce69a5cf1e7cd55a5' },
+        { _id: ObjectId('5b902112e69a5cf1e7cd5609'), name: 'Glenavon', yearFounded: 1899, leagueId: '5b3faac513591ee3884458a6', stadiumId: '5b9020e6e69a5cf1e7cd55f7' },
+        { _id: ObjectId('5b902237e69a5cf1e7cd567a'), name: 'Ballymena United', yearFounded: 1928, leagueId: '5b3faac513591ee3884458a6', stadiumId: '5b902209e69a5cf1e7cd5666' },
+        { _id: ObjectId('5b902337e69a5cf1e7cd56dd'), name: 'Dungannon Swifts', yearFounded: 1949, leagueId: '5b3faac513591ee3884458a6', stadiumId: '5b9022f8e69a5cf1e7cd56c5' },
+        { _id: ObjectId('5b90255be69a5cf1e7cd57a4'), name: 'Newry City AFC', yearFounded: 2013, leagueId: '5b3faac513591ee3884458a6', stadiumId: '5b902523e69a5cf1e7cd578e' },
+        { _id: ObjectId('5b9025dae69a5cf1e7cd57dd'), name: 'Warrenpoint Town', yearFounded: 1987, leagueId: '5b3faac513591ee3884458a6', stadiumId: '5b9025b2e69a5cf1e7cd57cc' },
+        { _id: ObjectId('5b90265de69a5cf1e7cd5814'), name: 'Institute', yearFounded: 1905, leagueId: '5b3faac513591ee3884458a6', stadiumId: '5b90262fe69a5cf1e7cd5804' },
+        { _id: ObjectId('5b90272ae69a5cf1e7cd5867'), name: 'Portadown', yearFounded: 1887, leagueId: '5b3faac513591ee3884458a7', stadiumId: '5b902702e69a5cf1e7cd5856' },
+        { _id: ObjectId('5bcf90d8945bbc9e34fa3fdf'), name: 'Ballinamallard United', yearFounded: 1975, leagueId: '5b3faac513591ee3884458a7', stadiumId: '5bcf9080945bbc9e34fa3fb0' },
+        { _id: ObjectId('5bcf91ae945bbc9e34fa404f'), name: 'Ballyclare Comrades', yearFounded: 1919, leagueId: '5b3faac513591ee3884458a7', stadiumId: '5bcf916d945bbc9e34fa4036' },
+        { _id: ObjectId('5bcf923f945bbc9e34fa4091'), name: 'Carrick Rangers', yearFounded: 1939, leagueId: '5b3faac513591ee3884458a7', stadiumId: '5bcf9211945bbc9e34fa4080' },
+        { _id: ObjectId('5be35ed2d16f192eab8d257b'), name: 'Dergview', yearFounded: 1980, leagueId: '5b3faac513591ee3884458a7', stadiumId: '5be35e98d16f192eab8d2569' },
+        { _id: ObjectId('5be35f7bd16f192eab8d25a0'), name: 'Dundela', yearFounded: 1895, leagueId: '5b3faac513591ee3884458a7', stadiumId: '5be35f47d16f192eab8d2593' },
+        { _id: ObjectId('5be36045d16f192eab8d25c7'), name: 'Harland \u0026 Wolff Welders', yearFounded: 1965, leagueId: '5b3faac513591ee3884458a7', stadiumId: '5be36026d16f192eab8d25c1' },
+        { _id: ObjectId('5be360a8d16f192eab8d25de'), name: 'Knockbreda', yearFounded: 1948, leagueId: '5b3faac513591ee3884458a7', stadiumId: '5be3607fd16f192eab8d25d5' },
+        { _id: ObjectId('5be36166d16f192eab8d2604'), name: 'Larne', yearFounded: 1889, leagueId: '5b3faac513591ee3884458a7', stadiumId: '5be36130d16f192eab8d25f9' },
+        { _id: ObjectId('5be36218d16f192eab8d262b'), name: 'Limavady United', yearFounded: 1884, leagueId: '5b3faac513591ee3884458a7', stadiumId: '5be361d5d16f192eab8d261e' },
+        { _id: ObjectId('5be362f7d16f192eab8d265c'), name: 'Loughgall', yearFounded: 1967, leagueId: '5b3faac513591ee3884458a7', stadiumId: '5be362c7d16f192eab8d264f' },
+        { _id: ObjectId('5be363cdd16f192eab8d2683'), name: 'PSNI', yearFounded: 1928, leagueId: '5b3faac513591ee3884458a7', stadiumId: '5be3607fd16f192eab8d25d5' }
     ]
 }
