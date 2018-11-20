@@ -34,6 +34,13 @@ module.exports = {
 		{ _id: ObjectId('5be35e68d16f192eab8d255a'), name: 'Castlederg' },
 		{ _id: ObjectId('5be360fdd16f192eab8d25ef'), name: 'Larne' },
 		{ _id: ObjectId('5be36190d16f192eab8d2611'), name: 'Limavady' },
-		{ _id: ObjectId('5be36273d16f192eab8d2640'), name: 'Loughgall' }
+		{ _id: ObjectId('5be36273d16f192eab8d2640'), name: 'Loughgall' },
+		{ _id: ObjectId('5bf46f3d700bd4a3b64ff5ba'), name: 'Armagh' },
+		{ _id: ObjectId('5bf4704a700bd4a3b64ff640'), name: 'Banbridge' },
+		{ _id: ObjectId('5bf470ec700bd4a3b64ff694'), name: 'Dollingstown' },
+		{ _id: ObjectId('5bf47166700bd4a3b64ff6c9'), name: 'Lisburn' },
+		{ _id: ObjectId('5bf4728e700bd4a3b64ff73a'), name: 'Castledawson' },
+		{ _id: ObjectId('5bf473e1700bd4a3b64ff7c0'), name: 'Portstewart' },
+		{ _id: ObjectId('5bf475a5700bd4a3b64ff877'), name: 'Tobermore' }
 	]
 }

@@ -47,6 +47,18 @@ module.exports = {
         { _id: ObjectId('5be36166d16f192eab8d2604'), name: 'Larne', yearFounded: 1889, leagueId: '5b3faac513591ee3884458a7', stadiumId: '5be36130d16f192eab8d25f9' },
         { _id: ObjectId('5be36218d16f192eab8d262b'), name: 'Limavady United', yearFounded: 1884, leagueId: '5b3faac513591ee3884458a7', stadiumId: '5be361d5d16f192eab8d261e' },
         { _id: ObjectId('5be362f7d16f192eab8d265c'), name: 'Loughgall', yearFounded: 1967, leagueId: '5b3faac513591ee3884458a7', stadiumId: '5be362c7d16f192eab8d264f' },
-        { _id: ObjectId('5be363cdd16f192eab8d2683'), name: 'PSNI', yearFounded: 1928, leagueId: '5b3faac513591ee3884458a7', stadiumId: '5be3607fd16f192eab8d25d5' }
+        { _id: ObjectId('5be363cdd16f192eab8d2683'), name: 'PSNI', yearFounded: 1928, leagueId: '5b3faac513591ee3884458a7', stadiumId: '5be3607fd16f192eab8d25d5' },
+        { _id: ObjectId('5bf46ecd700bd4a3b64ff585'), name: 'Annagh United', yearFounded: 1963, leagueId: '5b3faac513591ee3884458a8', stadiumId: '5bf46e8e700bd4a3b64ff566' },
+        { _id: ObjectId('5bf46fb7700bd4a3b64ff5f5'), name: 'Armagh City', yearFounded: 1964, leagueId: '5b3faac513591ee3884458a8', stadiumId: '5bf46f79700bd4a3b64ff5d7' },
+        { _id: ObjectId('5bf470b0700bd4a3b64ff66e'), name: 'Banbridge Town', yearFounded: 1947, leagueId: '5b3faac513591ee3884458a8', stadiumId: '5bf47077700bd4a3b64ff653' },
+        { _id: ObjectId('5bf47134700bd4a3b64ff6af'), name: 'Dollingstown', yearFounded: 1979, leagueId: '5b3faac513591ee3884458a8', stadiumId: '5bf4710a700bd4a3b64ff69e' },
+        { _id: ObjectId('5bf471de700bd4a3b64ff6f8'), name: 'Lisburn Distillery', yearFounded: 1880, leagueId: '5b3faac513591ee3884458a8', stadiumId: '5bf47198700bd4a3b64ff6d9' },
+        { _id: ObjectId('5bf4725b700bd4a3b64ff727'), name: 'Lurgan Celtic', yearFounded: 1970, leagueId: '5b3faac513591ee3884458a8', stadiumId: '5bf47220700bd4a3b64ff710' },
+        { _id: ObjectId('5bf47338700bd4a3b64ff77c'), name: 'Moyola Park', yearFounded: 1880, leagueId: '5b3faac513591ee3884458a8', stadiumId: '5bf472aa700bd4a3b64ff746' },
+        { _id: ObjectId('5bf473a5700bd4a3b64ff7a4'), name: 'Newington', yearFounded: 1979, leagueId: '5b3faac513591ee3884458a8', stadiumId: '5b901af0e69a5cf1e7cd5369' },
+        { _id: ObjectId('5bf4745c700bd4a3b64ff7f0'), name: 'Portstewart', yearFounded: 1968, leagueId: '5b3faac513591ee3884458a8', stadiumId: '5bf4742e700bd4a3b64ff7df' },
+        { _id: ObjectId('5bf47532700bd4a3b64ff83d'), name: 'Queen\'s University Belfast', yearFounded: 1910, leagueId: '5b3faac513591ee3884458a8', stadiumId: '5bf4750b700bd4a3b64ff82e' },
+        { _id: ObjectId('5bf4757f700bd4a3b64ff862'), name: 'Sport \u0026 Leisure Swifts', yearFounded: 1978, leagueId: '5b3faac513591ee3884458a8', stadiumId: '5bf47564700bd4a3b64ff858' },
+        { _id: ObjectId('5bf475e5700bd4a3b64ff891'), name: 'Tobermore United', yearFounded: 1965, leagueId: '5b3faac513591ee3884458a8', stadiumId: '5bf475b7700bd4a3b64ff87f' }
     ]
 }
