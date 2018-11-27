@@ -59,6 +59,17 @@ module.exports = {
         { _id: ObjectId('5bf4745c700bd4a3b64ff7f0'), name: 'Portstewart', yearFounded: 1968, leagueId: '5b3faac513591ee3884458a8', stadiumId: '5bf4742e700bd4a3b64ff7df' },
         { _id: ObjectId('5bf47532700bd4a3b64ff83d'), name: 'Queen\'s University Belfast', yearFounded: 1910, leagueId: '5b3faac513591ee3884458a8', stadiumId: '5bf4750b700bd4a3b64ff82e' },
         { _id: ObjectId('5bf4757f700bd4a3b64ff862'), name: 'Sport \u0026 Leisure Swifts', yearFounded: 1978, leagueId: '5b3faac513591ee3884458a8', stadiumId: '5bf47564700bd4a3b64ff858' },
-        { _id: ObjectId('5bf475e5700bd4a3b64ff891'), name: 'Tobermore United', yearFounded: 1965, leagueId: '5b3faac513591ee3884458a8', stadiumId: '5bf475b7700bd4a3b64ff87f' }
+        { _id: ObjectId('5bf475e5700bd4a3b64ff891'), name: 'Tobermore United', yearFounded: 1965, leagueId: '5b3faac513591ee3884458a8', stadiumId: '5bf475b7700bd4a3b64ff87f' },
+        { _id: ObjectId('5bfd907f49b8d59b04cef7ea'), name: 'FC Alashkert', yearFounded: 1990, leagueId: '5bfd8fb449b8d59b04cef7ae', stadiumId: '5bfd904349b8d59b04cef7cd' },
+        { _id: ObjectId('5bfd910149b8d59b04cef814'), name: 'FC Ararat Yerevan', yearFounded: 1935, leagueId: '5bfd8fb449b8d59b04cef7ae', stadiumId: '5bfd904349b8d59b04cef7cd' },
+        { _id: ObjectId('5bfd915449b8d59b04cef837'), name: 'FC Ararat-Armenia', yearFounded: 2017, leagueId: '5bfd8fb449b8d59b04cef7ae', stadiumId: '5bfd913249b8d59b04cef828' },
+        { _id: ObjectId('5bfd91a849b8d59b04cef857'), name: 'Artsakh FC', yearFounded: 2017, leagueId: '5bfd8fb449b8d59b04cef7ae', stadiumId: '5bfd918f49b8d59b04cef850' },
+        { _id: ObjectId('5bfd920949b8d59b04cef883'), name: 'FC Banants', yearFounded: 1992, leagueId: '5bfd8fb449b8d59b04cef7ae', stadiumId: '5bfd91e849b8d59b04cef875' },
+        { _id: ObjectId('5bfd933c49b8d59b04cef90f'), name: 'FC Gandzasar Kapan', yearFounded: 2004, leagueId: '5bfd8fb449b8d59b04cef7ae', stadiumId: '5bfd930949b8d59b04cef8f8' },
+        { _id: ObjectId('5bfd939f49b8d59b04cef93c'), name: 'Lori FC', yearFounded: 1936, leagueId: '5bfd8fb449b8d59b04cef7ae', stadiumId: '5bfd937749b8d59b04cef929' },
+        { _id: ObjectId('5bfd940149b8d59b04cef966'), name: 'FC Pyunik Yerevan', yearFounded: 1992, leagueId: '5bfd8fb449b8d59b04cef7ae', stadiumId: '5bfd913249b8d59b04cef828' },
+        { _id: ObjectId('5bfd945049b8d59b04cef98b'), name: 'Shirak SC', yearFounded: 1958, leagueId: '5bfd8fb449b8d59b04cef7ae', stadiumId: '5bfd942a49b8d59b04cef978' },
+        { _id: ObjectId('5bfd94bd49b8d59b04cef9b8'), name: 'Erebuni SC', yearFounded: 2007, leagueId: '5bfd8fe949b8d59b04cef7b8', stadiumId: '5bfd94a649b8d59b04cef9ad' }
+
     ]
 }

@@ -58,6 +58,14 @@ module.exports = {
 		{ _id: ObjectId('5bf4742e700bd4a3b64ff7df'), name: 'Mullaghacall', seatedCapacity: 100, totalCapacity:  1000, cityId: '5bf473e1700bd4a3b64ff7c0' },
 		{ _id: ObjectId('5bf4750b700bd4a3b64ff82e'), name: 'Upper Malone', seatedCapacity: 330, totalCapacity:  1000, cityId: '5b901a83e69a5cf1e7cd5323' },
 		{ _id: ObjectId('5bf47564700bd4a3b64ff858'), name: 'Glen Road Heights', seatedCapacity: 0, totalCapacity:  1000, cityId: '5b901a83e69a5cf1e7cd5323' },
-		{ _id: ObjectId('5bf475b7700bd4a3b64ff87f'), name: 'Fortwilliam Park', seatedCapacity: 0, totalCapacity:  1000, cityId: '5bf475a5700bd4a3b64ff877' }
+		{ _id: ObjectId('5bf475b7700bd4a3b64ff87f'), name: 'Fortwilliam Park', seatedCapacity: 0, totalCapacity:  1000, cityId: '5bf475a5700bd4a3b64ff877' },
+		{ _id: ObjectId('5bfd904349b8d59b04cef7cd'), name: 'Alashkert Stadium', seatedCapacity: 1850, totalCapacity:  6850, cityId: '5bfd8e7449b8d59b04cef73c' },
+		{ _id: ObjectId('5bfd913249b8d59b04cef828'), name: 'Vazgen Sargsyan Republican Stadium', seatedCapacity: 14403, totalCapacity:  14403, cityId: '5bfd8e7449b8d59b04cef73c' },
+		{ _id: ObjectId('5bfd918f49b8d59b04cef850'), name: 'Mika Stadium', seatedCapacity: 7250, totalCapacity:  7250, cityId: '5bfd8e7449b8d59b04cef73c' },
+		{ _id: ObjectId('5bfd91e849b8d59b04cef875'), name: 'Banants Stadium', seatedCapacity: 4860, totalCapacity:  4860, cityId: '5bfd8e7449b8d59b04cef73c' },
+		{ _id: ObjectId('5bfd930949b8d59b04cef8f8'), name: 'Yerevan Football Academy Stadium', seatedCapacity: 1428, totalCapacity:  1428, cityId: '5bfd8eda49b8d59b04cef749' },
+		{ _id: ObjectId('5bfd937749b8d59b04cef929'), name: 'Vanadzor City Stadium', seatedCapacity: 4000, totalCapacity:  4000, cityId: '5bfd8e8049b8d59b04cef73e' },
+		{ _id: ObjectId('5bfd942a49b8d59b04cef978'), name: 'Gyumri City Stadium', seatedCapacity: 2844, totalCapacity:  2844, cityId: '5bfd8e8b49b8d59b04cef740' },
+		{ _id: ObjectId('5bfd94a649b8d59b04cef9ad'), name: 'Erebuni Stadium', seatedCapacity: 544, totalCapacity:  544, cityId: '5bfd8e7449b8d59b04cef73c' }
 	]
 }

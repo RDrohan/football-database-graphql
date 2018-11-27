@@ -41,6 +41,10 @@ module.exports = {
 		{ _id: ObjectId('5bf47166700bd4a3b64ff6c9'), name: 'Lisburn' },
 		{ _id: ObjectId('5bf4728e700bd4a3b64ff73a'), name: 'Castledawson' },
 		{ _id: ObjectId('5bf473e1700bd4a3b64ff7c0'), name: 'Portstewart' },
-		{ _id: ObjectId('5bf475a5700bd4a3b64ff877'), name: 'Tobermore' }
+		{ _id: ObjectId('5bf475a5700bd4a3b64ff877'), name: 'Tobermore' },
+		{ _id: ObjectId('5bfd8e7449b8d59b04cef73c'), name: 'Yerevan' },
+		{ _id: ObjectId('5bfd8e8049b8d59b04cef73e'), name: 'Vanadzor' },
+		{ _id: ObjectId('5bfd8e8b49b8d59b04cef740'), name: 'Gyumri' },
+		{ _id: ObjectId('5bfd8eda49b8d59b04cef749'), name: 'Kapan' }
 	]
 }
